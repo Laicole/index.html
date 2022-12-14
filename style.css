@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300;1,600&display=swap');
+body{
+	font-family: 'Georgia', sans-serif;
+	text-align: center;
+	margin: 0;
+	background-color: lightslategray ;
+}
+
+nav ul{
+	list-style-type:none;
+	text-align: center;
+	padding-left: 0;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin:auto;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: black;
+}
+nav a:visited{
+	color: pink;
+}
+nav a:hover{
+	color: gray;
+}
+nav a:active{
+	color: black;
+}
+nav{
+	max-width: auto;
+	background-color:lightskyblue;
+	border-top: 5px black;
+	border-bottom: 5px black;
+}
+main{
+	max-width: auto;
+	margin: 20px auto;
+}
+header-image{
+	max-width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	height: auto;
+}
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.home-hero{
+	background-image: url(images/header.jpg);
+	height: 475px;
+	background-size:cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+}
+.icons .fa {
+	font-size: 6em;
+	color: lightgrey;
+}
+.fa{
+	display: inline-block;
+	font:normal normal 14px/1 FontAwesome;
+	text-rendering: auto;
+}
+footer{
+	background-color: lightskyblue;
+	text-align: center;
+	padding:5px;
+}
+footer a:link{
+	color: black;
+}
+@media only screen and (max-width: 768px){
+	h1{
+		font-size:1.5em;
+	}
+}
