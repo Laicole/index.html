@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width,intial-scale=1.0">
+ 	<title>LaiCole's Portfolio</title>
+ 	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<header>
+ 		<h1>LaiCole's Portfolio</h1> 
+    </header>
+
+    <nav>
+    	<ul>
+    		<li><a href="index.html">Home</a></li>
+    		<li><a href="resume.html">Resume</a></li>
+    		<li><a href="table.html">Table</a></li>
+    		<li><a href="form.html">Form</a></li>
+    		<li><a href="multimedia.html">Multimedia</a></li>
+    		<li><a href="javascript.html">Javascript</a></li>
+    	</ul>
+    </nav>
+
+    <main>
+    	<h2> HTML Form</h2>
+    		<p>This is a form that I made in HTML and styled with CSS. This form doesn't contact me, but it does process with a PHP script. If you fill it out and submit the form, the form checks for completeness and prints your form entries to the screen.</p>
+    	<form method="post" action="https://webdevstudents.com/portfolio/submit-form.php">
+    	<h3> Report Form </h3>
+    	<label for="first_name">First Name</label><br>
+    	<input type="text" name="first_name" id="first_name"required><br>
+    	<label for="last_name"> Last Name</label><br>
+    	<input type="text" id="last_name"required><br>
+    	<label for="email">Email</label><br>
+    	<input type="text" id="email"required><br>
+    	<label for="phone">Phone</label><br>
+    	<input type="text" id="phone"><br>
+    	<label for="comments">Your Reports</label><br>
+    	<textarea id="comments">Comments</textarea><br>
+    	<input type="submit" value="Submit">
+    </form>
+    </main>	
+	<footer>
+		<hr>
+		<p><a href="https://saintpaul.edu" target="_blank">Saint Paul College</a></p>
+		<p><a href="mailto:me@ymail.com"target="_blank">Email Me</a> &bull;
+		<a href="tel:9999999999">Call Me</a> &bull;
+		<a href="sms:9999999999">Text Me</a>
+		</p>
+		<small>&copy; LaiCole Dobie. All rights reserved.</small>
+	</footer>
+</body>
+</html>
